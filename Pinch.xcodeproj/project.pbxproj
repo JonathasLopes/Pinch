@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		864D388527DAECD6004EB274 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864D388427DAECD6004EB274 /* InfoPanelView.swift */; };
 		86A5187B27D6FE19006627DE /* PinchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A5187A27D6FE19006627DE /* PinchApp.swift */; };
 		86A5187D27D6FE19006627DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A5187C27D6FE19006627DE /* ContentView.swift */; };
 		86A5187F27D6FE1A006627DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A5187E27D6FE1A006627DE /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		864D388427DAECD6004EB274 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
 		86A5187727D6FE19006627DE /* Pinch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A5187A27D6FE19006627DE /* PinchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchApp.swift; sourceTree = "<group>"; };
 		86A5187C27D6FE19006627DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,8 +56,8 @@
 				86A5188B27D7006C006627DE /* Data */,
 				86A5188A27D7005B006627DE /* Model */,
 				86A5188927D70037006627DE /* View */,
-				86A5187A27D6FE19006627DE /* PinchApp.swift */,
 				86A5188827D70012006627DE /* Screen */,
+				86A5187A27D6FE19006627DE /* PinchApp.swift */,
 				86A5187E27D6FE1A006627DE /* Assets.xcassets */,
 				86A5188027D6FE1A006627DE /* Preview Content */,
 			);
@@ -81,6 +83,7 @@
 		86A5188927D70037006627DE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				864D388427DAECD6004EB274 /* InfoPanelView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			files = (
 				86A5187D27D6FE19006627DE /* ContentView.swift in Sources */,
 				86A5187B27D6FE19006627DE /* PinchApp.swift in Sources */,
+				864D388527DAECD6004EB274 /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
